@@ -2,8 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    // TODO: 部署上线后改成实际的站点域名
-    url: "https://hexarchh.github.io/blog/",
+    url: "https://hexarchh-blog.pages.dev/",
     title: "Hexarchh 的博客",
     description: "记录学习、思考与生活的个人空间。",
     author: "Hexarchh",

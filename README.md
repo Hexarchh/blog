@@ -2,7 +2,7 @@
 
 我的个人博客，记录学习、思考与生活。
 
-- **线上地址**：待部署
+- **线上地址**：[hexarchh-blog.pages.dev](https://hexarchh-blog.pages.dev)
 - **源码**：[github.com/Hexarchh/blog](https://github.com/Hexarchh/blog)
 - **技术栈**：[Astro](https://astro.build/) + [AstroPaper](https://github.com/satnaing/astro-paper) 主题（感谢作者的 MIT 开源）
 
@@ -12,6 +12,7 @@
 pnpm install   # 安装依赖
 pnpm dev       # 启动本地预览 http://localhost:4321
 pnpm build     # 构建静态站点到 dist/
+pnpm deploy    # 构建并部署到 Cloudflare Pages（需已 wrangler login）
 ```
 
 ## 目录速查

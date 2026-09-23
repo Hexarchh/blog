@@ -21,6 +21,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: config.site.url,
+
   integrations: [
     mdx(),
     sitemap({
@@ -28,6 +29,7 @@ export default defineConfig({
         config.features?.showArchives !== false || !page.endsWith("/archives/"),
     }),
   ],
+
   i18n: {
     locales: ["zh-CN"],
     defaultLocale: "zh-CN",
@@ -35,6 +37,7 @@ export default defineConfig({
       prefixDefaultLocale: false,
     },
   },
+
   markdown: {
     processor: unified({
       remarkPlugins: [
@@ -55,9 +58,11 @@ export default defineConfig({
       ],
     },
   },
+
   vite: {
     plugins: [tailwindcss()],
   },
+
   fonts: [
     {
       name: "Google Sans Code",
@@ -78,6 +83,7 @@ export default defineConfig({
       formats: ["woff", "ttf"],
     },
   ],
+
   env: {
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({
@@ -87,6 +93,7 @@ export default defineConfig({
       }),
     },
   },
+
   experimental: {
     svgOptimizer: svgoOptimizer(),
   },
