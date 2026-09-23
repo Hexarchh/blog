@@ -4,9 +4,9 @@ export default defineAstroPaperConfig({
   site: {
     // TODO: 部署上线后改成实际的站点域名
     url: "https://hexarchh.github.io/blog/",
-    title: "Chen Kai 的博客",
+    title: "Hexarchh 的博客",
     description: "记录学习、思考与生活的个人空间。",
-    author: "Chen Kai",
+    author: "Hexarchh",
     profile: "https://github.com/Hexarchh",
     ogImage: "default-og.jpg",
     lang: "zh-CN",
@@ -29,10 +29,7 @@ export default defineAstroPaperConfig({
     },
     search: "pagefind",
   },
-  socials: [
-    { name: "github", url: "https://github.com/Hexarchh" },
-    { name: "mail", url: "mailto:chenkai1181077892@163.com" },
-  ],
+  socials: [{ name: "github", url: "https://github.com/Hexarchh" }],
   shareLinks: [
     { name: "x", url: "https://x.com/intent/post?url=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },

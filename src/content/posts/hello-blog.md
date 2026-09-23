@@ -1,5 +1,5 @@
 ---
-author: Chen Kai
+author: Hexarchh
 pubDatetime: 2026-09-23T09:00:00Z
 title: 你好，世界：这个博客开张了
 slug: hello-blog

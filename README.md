@@ -1,4 +1,4 @@
-# Chen Kai 的博客
+# Hexarchh 的博客
 
 我的个人博客，记录学习、思考与生活。
 
@@ -29,7 +29,7 @@ pnpm build     # 构建静态站点到 dist/
 
 ```yaml
 ---
-author: Chen Kai
+author: Hexarchh
 pubDatetime: 2026-09-23T09:00:00Z
 title: 文章标题
 slug: url-friendly-slug

@@ -3,9 +3,9 @@ title: "关于"
 description: "关于我和这个博客。"
 ---
 
-你好，我是 **Chen Kai**。
+你好，我是 **Hexarchh**。
 
-这是我的个人博客，一个记录学习、思考和生活的地方。我在 GitHub 上的ID是 [Hexarchh](https://github.com/Hexarchh)，欢迎来找我玩。
+这是我的个人博客，一个记录学习、思考和生活的地方。我在 [GitHub](https://github.com/Hexarchh) 上活动，欢迎来找我玩。
 
 ## 关于这个站点
 
